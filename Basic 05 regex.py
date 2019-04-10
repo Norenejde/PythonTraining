@@ -1,0 +1,5 @@
+f = open("files/everything-is-awesome.txt", "r")
+x = f.read()
+z = x.count("is")
+y = x.count("Is")
+print(z+y)
